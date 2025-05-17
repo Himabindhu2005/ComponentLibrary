@@ -1,21 +1,40 @@
-# Component Library ++
+# React Component Library
+Reusable React component library, showcases various UI components built for modularity, customization, and reusability across web projects.
 
-This is the first solo project from the advanced React course on [Scrimba](https://scrimba.com/dashboard#overview)
 
-## Tasks
-- Create a Badge component
-- Create a Banner component
-- Create a Card component
-- Create a Nav component
-- Create a Testimonials component
-- Create a Tooltip component
 
-![component_library](https://github.com/rafaelnacle/component-library/assets/54647722/38ec5ec9-033b-4c05-9d43-a94c0b88369b)
+# Features
+This library includes the following custom-built React components:
 
-## Tech
-- React
-- Vite
-- classnames
-- React Icons
+ Card – Display rich content blocks with icons and custom styles.
 
-PS: I know the design could be better, but I'm really out of time these days!
+ Badge – Simple, colorful labels for tagging or status indication.
+
+ Banner – Alert or inform users with styled status banners (success, error, warning, neutral).
+
+ Tooltip – Small, flexible informational popups with dark/light themes and color variations.
+
+ Testimonial – Showcase user reviews or feedback with profile images and quotes.
+
+ Navbar – Clean navigation with internal anchor links for smooth scrolling.
+
+# Tech Stack
+ React
+
+ Vite (for blazing-fast dev environment)
+
+ classnames (for dynamic class name composition)
+
+ React Icons (for consistent UI icons)
+
+# Getting Started
+To run the project locally:
+
+```bash
+
+git clone https://github.com/YOUR-USERNAME/component-library.git
+cd component-library
+npm install
+npm run dev
+```
+Then open http://localhost:5173 in your browser.
